@@ -47,35 +47,43 @@ Visualisation : Tableau affiche les données traitées à partir de l’index El
 
 
 
-⚙️ Installation et Démarrage
-1️⃣ Cloner le Dépôt
-bash
-Copy code
+# ⚙️ Installation et Démarrage
+## 1️⃣ Cloner le Dépôt
+
 git clone git clone [project_data_pipeline](https://github.com/Cherkani/project_data_pipeline.git)
 cd project_data_pipeline
-2️⃣ Lancer l'Infrastructure
+
+## 2️⃣ Lancer l'Infrastructure
 Assurez-vous que Docker est en cours d'exécution, puis exécutez :
 
-bash
-Copy code
+
 docker-compose up --build
-3️⃣ Configurer le Tableau de Bord dans Tableau
+
+## 3️⃣ Configurer le Tableau de Bord dans Tableau
+
 Connexion aux Données :
+
 Configurez une connexion dans Tableau avec Elasticsearch en utilisant l'adresse suivante :
 arduino
-Copy code
+
 http://localhost:9200
+
 Créer des Graphiques :
 Configurez des visualisations interactives en utilisant les index des données (btc, eth, nvda).
-📄 Structure du Projet
+
+## 📄 Structure du Projet
 docker-compose.yml : Définit tous les services nécessaires (Kafka, Elasticsearch, NiFi, etc.).
 nifi/ : Flux NiFi pour collecter et publier les données.
 spark/ : Scripts pour le traitement en temps réel avec Spark.
 dashboards/ : Modèles de tableau de bord pour Tableau.
-🌐 APIs Utilisées
+
+## 🌐 APIs Utilisées
+
 Binance API : Prix des cryptomonnaies en temps réel.
 Finnhub API : Données des actions Nvidia.
-📊 Tableaux de Bord
+
+## 📊 Tableaux de Bord
+
 Les tableaux de bord incluent :
 
 Variations des prix BTC, ETH, NVDA.
