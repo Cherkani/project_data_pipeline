@@ -16,8 +16,15 @@ Traitement des données avec Apache Flink/Spark pour calculer des corrélations.
 
 Visualisation avancée avec Tableau, permettant une analyse approfondie des tendances historiques et des relations en temps réel.
 
+# video
+
+https://github.com/user-attachments/assets/92fd0eba-f6c6-42ab-ad52-1b28de5eedba
+
 
 # 🏗 Architecture
+
+![data pipeline](https://github.com/user-attachments/assets/3f7eea15-9a67-4aa8-b661-d22235c440d4)
+
 
 ## L'architecture repose sur une approche modulaire avec les composants suivants :
 
