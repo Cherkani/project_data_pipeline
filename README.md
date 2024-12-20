@@ -41,9 +41,11 @@ L'architecture repose sur une approche modulaire avec les composants suivants :
 ### Chapitre 1 : Clonage et Lancement du Projet
 
 1. **Cloner le projet :**
-   ```bash
-   git clone https://github.com/Cherkani/project_data_pipeline.git
-   ```
+
+   
+```bash
+git clone https://github.com/Cherkani/project_data_pipeline.git
+```
 
 
 Cela téléchargera une copie du projet localement.
